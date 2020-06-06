@@ -1,0 +1,230 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	/*border: 1px solid red;*/
+	padding: 20px 0;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.logo{
+	float: left;
+	width: 14%;
+	/*border: 1px solid black;*/
+	margin-top: 7px;
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	float: right;
+	width: 70%;
+	/*border: 1px solid black;*/
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	list-style: none;
+	float: left;
+}
+.manu ul li a{
+	font-weight: 400;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	margin: 0 60px;
+	transition: .4s;
+}
+.manu ul li a:hover{
+	border-bottom: 2px solid #626262;
+}
+.manu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.b-image img{
+	width: 100%;
+}
+/*banner end*/
+
+/*content start*/
+.content, .blog2, .load{
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.about{}
+.head{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 0;
+}
+.heading{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 22px;
+	margin-bottom: 31px;
+}
+.text{
+	line-height: 24px;
+	margin-top: 0;
+	margin-bottom:35px;
+}
+/*content end*/
+
+/*block start*/
+.blog{
+	padding-bottom: 75px;
+}
+.blog-item{
+	width: 47%;
+	float: left;
+	margin-top: 45px;
+}
+.blog-item:nth-child(even){
+	margin-left: 6%;
+}
+.blog-item img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*block end*/
+
+/*signup start*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 75px 0;
+}
+.signup{
+	text-align: center;
+}
+.s-h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 65px;
+}
+.s-form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+.s-form input{
+	font-size: 14px;
+	width: 350px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: transparent;
+	padding: 0 40px 0 5px;
+}
+.s-form input:focus{
+	outline: 0;
+}
+.s-form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 0;
+	right: 0;
+	padding-top: 11px;
+}
+.s-form button:focus{
+	outline: 0;
+}
+.s-form button img{}
+/*signup end*/
+
+/*button start*/
+.button{
+	text-align: center;
+	padding-bottom: 70px;
+}
+.button button{
+	font-size: 20px;
+	font-weight: 400;
+	width: 160px;
+	height: 50px;
+	border: none;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .3s;
+}
+.button button:focus{
+	outline: 0;
+}
+.button button:hover{
+	cursor: pointer;
+	background-color: #626262;
+	color: white;
+}
+/*button end*/
+
+/*footer start*/
+.footer{
+	background-color: #f0f0f0;
+	padding: 30px 0;
+}
+.policy{
+	width: 35%;
+	float: left;
+	margin-left: 3%;
+}
+.policy ul{
+	float: left;
+}
+.policy ul li{
+	list-style: none;
+	display: inline-block;
+}
+.policy ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 12px;
+	color: #000000;
+	transition: .5s
+}
+.social-media{
+	width: 62%;
+	display: inline-block;
+}
+.social-media ul{
+	float: right;
+}
+.social-media ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-media ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 12px;
+	color: #818181;
+}
+.social-media ul li a:hover{
+	color: #ffffff;
+}
+/*footer end*/
